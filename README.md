@@ -28,7 +28,7 @@ Now, as much respect as I have for Ken, I have even more respect for the collect
 Finally, something that we know for certain! It's important to contemplate the payout structure of the pool in question, because the optimal strategy might be very different for a winner-take-all pool vs. one that awards prize money to the top half of entries.
 
 ### Model
-Like I said, the model itself is pretty simple. It proceeds in the following steps:
+Like I said, the model itself is not too complicated, relatively speaking. It proceeds in the following steps:
 
 1. Set basic parameters (e.g. num sims, num entries, scoring system, payout structure)
 2. Import and pre-process data (e.g. import efficiency ratings, set up bracket, calculate win probability matrix, etc.)
