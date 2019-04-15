@@ -3,7 +3,7 @@
 
 I hate losing March Madness pools as much as I love March Madness. And I've lost a LOT of pools. You probably wrestle with the same annual problem as I do, namely: where on the chalk-upset continuum should my bracket sit?
 
-Ultimately, what matters is value. And since our goal is presumably to win money, value is best measured as ROI or EV. Given that, we need to figure out how to determine which picks -- or really, which set of 63 picks -- provides the best return.
+Ultimately, what matters is value. And since our goal is presumably to win money, value is best measured as ROI or expected value (EV). Given that, we need to figure out how to determine which picks -- or really, which set of 63 picks -- provides the best return.
 
 To figure that out, I built what amounts to a pretty simple model that sets up a fictitious (but realistic) pool, plays out the tournament thousands of times, scores the pool on each iteration, and looks at which brackets generate the highest ROI over the long-term.
 
@@ -35,11 +35,23 @@ Like I said, the model itself is pretty simple. It proceeds in the following ste
 3. Simulate the entire tournament n times
 4. Create entries for k fictitious competitors using the assumed pick distribution
 5. Score the k sheets for each of the n simulations and award prize money according to the selected payout scheme
-6. Look at average payouts by sheet over all simulations, and pick the highest!
+6. Look at average payouts by sheet over all simulations, and pick the highest
 
-OK, there's a little more to it than that, but I'll leave it to the interested reader to go through the R code.
+There's a little more to it than that, but I'll leave it to the interested reader to go through the R code.
 
 ### Results
-Temp
+For the 2019 tournament, the table below shows the mean ROI associated with picking each team to win each round. Though this provides an interesting summary of modeled results, it doesn't really directly address the issue of how to fill out the bracket to maximize profit.
+
+IMAGE HERE
+
+COMMENTARY HERE
+
+Instead of looking at it this way, I used the top 16 entries as provided by the model and entered them into DraftKings Sportsbook's $20 NCAA pool. The pool included somewhere in the neighborhood of 6,000 entries, with $20k going to the overall winner (and lesser amounts to lower places).
+
+So how did the model do? Really well, actually! In fact, one of the 16 entries had Texas Tech beating Virginia in the final and was in first place overall with about 12 seconds left in the game (see below)...until De'Andre Hunter tied it with a 3-pointer. Thankfully, because I knew I had a great shot at winning the $20k going into the game, I laid of several thousand before tip so still came out ahead.
 
 <img src = 'https://github.com/solaka/NCAA-pool-entry-optimization/blob/master/images/IMG_2211.PNG' width="250" height="440">
+
+It's worth underscoring that the model didn't "believe" that Virginia beating Texas Tech was a particularly likely outcome. In fact, TT was considered a longshot to win the title (somewhere around 3%). But the model determined that they were picked infrequently enough by our competitors to make that a profitable selection, and it turns out to be right.
+
+It's also worth reiterating the larger point that this model doesn't base selections on any kind of special insights about how likely different scenarios are. It's more like arbitrage...taking advantage of 'inefficiencies' in our competitors' picks relative to the likelihood of success of the various teams.
