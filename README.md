@@ -34,4 +34,10 @@ Like I said, the model itself is pretty simple. It proceeds in the following ste
 2. Import and pre-process data (e.g. import efficiency ratings, set up bracket, calculate win probability matrix, etc.)
 3. Simulate the entire tournament n times
 4. Create entries for k fictitious competitors using the assumed pick distribution
-5. 
+5. Score the k sheets for each of the n simulations and award prize money according to the selected payout scheme
+6. Look at average payouts by sheet over all simulations, and pick the highest!
+
+OK, there's a little more to it than that, but I'll leave it to the interested reader to go through the R code.
+
+### Results
+
