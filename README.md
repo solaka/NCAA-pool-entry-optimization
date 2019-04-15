@@ -40,4 +40,6 @@ Like I said, the model itself is pretty simple. It proceeds in the following ste
 OK, there's a little more to it than that, but I'll leave it to the interested reader to go through the R code.
 
 ### Results
+Temp
 
+<img src = 'https://github.com/solaka/NCAA-pool-entry-optimization/blob/master/images/IMG_2211.PNG' width="250" height="440">
