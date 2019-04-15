@@ -10,8 +10,8 @@ To figure that out, I built what amounts to a pretty simple model that sets up a
 ### Data
 As is often the case, getting good data is actually the hardest part here. We need to set the following assumptions:
 
-* A distribution of our opponents' selections
-* Measures of the relative strength of each team, such that we can estimate the probability of each team winning any given matchup
+* A distribution of our opponents' selections (i.e. how likely is a competitor to pick each team to win each round)
+* Measures of the relative strength of each team, such that we can estimate the probability of teams winning any given matchup
 * The payout structure for the pool
 
 #### Opponents' selections
