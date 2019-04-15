@@ -3,9 +3,9 @@
 
 I hate losing March Madness pools as much as I love March Madness. And I've lost a LOT of pools. You probably wrestle with the same annual problem as I do, namely: where on the chalk-upset continuum should my bracket sit?
 
-Ultimately, what matters is value. And since our goal is presumably to win money, value is best measured as ROI or expected value (EV). Given that, we need to figure out how to determine which picks -- or really, which set of 63 picks -- provides the best return.
+Ultimately, what matters is value. And since our goal is presumably to win money, value is best measured as ROI, expected value (EV), or similar. Given that, we need to figure out how to determine which picks -- or really, which set of 63 picks -- provide the highest average profit.
 
-To figure that out, I built what amounts to a pretty simple model that sets up a fictitious (but realistic) pool, plays out the tournament thousands of times, scores the pool on each iteration, and looks at which brackets generate the highest ROI over the long-term.
+To figure that out, I built what amounts to a relatively simple model that sets up a fictitious (but realistic) pool, plays out the tournament thousands of times, scores the pool for each iteration, and looks at which brackets generate the highest ROI over the long-term.
 
 ### Data
 As is often the case, getting good data is actually the hardest part here. We need to set the following assumptions:
