@@ -42,9 +42,9 @@ There's a little more to it than that, but I'll leave it to the interested reade
 ### Results
 For the 2019 tournament, the table below shows the mean ROI associated with picking each team to win each round. These results are based on the scoring system used by DraftKings, which awards 10 pts for a 1st round win, 20 pts for R2, 40 for R3, 80 for R4, etc. (more on this below).
 
-IMAGE HERE
+<img src = 'https://github.com/solaka/NCAA-pool-entry-optimization/blob/master/images/ROI%20by%20team%20and%20round.jpg' width="400" height="1000">
 
-So based on this, a great sheet would have Iowa St beating Texas Tech in the final, right? After all, they have the highest ROIs in those rounds. Not so fast. Iowa St as champion looks like a profitable pick, as does Texas Tech in the finals, but those teams are most often paired in the model with a chalky pick like Duke or Virginia. Still, I thought this was an interesting table, and yielded a few insights:
+So based on this, a great sheet would have Iowa St beating Texas Tech in the final, right? After all, they have the highest ROIs in those rounds. Not so fast. Iowa St as champion looks like a profitable pick, as does Texas Tech in the finals, but those teams are most often paired in the model with a chalky pick like Duke or Virginia. Picking BOTH in the final is probably a step too far...a highly improbable scenario where a somewhat less improbable one would probably still give you a great shot at winning. Even so, I thought this was an interesting table, and yielded a few insights:
 
 * At least for this tournament, it was best to stick with the favorites in the early rounds. Rarely did it make sense to take a double digit seed in an upset. Never, ever did it make sense to do something crazy like pick a 12-seed to win it all.
 * By contrast, as the tournament went on, it made more and more sense to pick some moderate upsets...teams in the 3-6 seed range beating 1-seeds, for example.
