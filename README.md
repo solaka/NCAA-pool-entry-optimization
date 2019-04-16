@@ -48,7 +48,7 @@ COMMENTARY HERE
 
 Instead of looking at it this way, I used the top 16 entries as provided by the model and entered them into DraftKings Sportsbook's $20 NCAA pool. The pool included somewhere in the neighborhood of 6,000 entries, with $20k going to the overall winner (and lesser amounts to lower places).
 
-So how did the model do? Really well, actually! In fact, one of the 16 entries had Texas Tech beating Virginia in the final and was in first place overall with about 12 seconds left in the game (see below)...until De'Andre Hunter tied it with a 3-pointer. Thankfully, because I knew I had a great shot at winning the $20k going into the game, I laid of several thousand before tip so still came out ahead.
+So how did the model do? Really well, actually! In fact, one of the 16 entries had Texas Tech beating Virginia in the final and was in first place overall with about 12 seconds left in the game (see below)...until De'Andre Hunter tied it with a 3-pointer. Thankfully, because I knew I had a great shot at winning the $20k going into the game, I laid off several thousand before tip so still came out ahead.
 
 <img src = 'https://github.com/solaka/NCAA-pool-entry-optimization/blob/master/images/IMG_2211.PNG' width="250" height="440">
 
