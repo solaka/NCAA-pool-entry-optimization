@@ -54,4 +54,4 @@ So how did the model do? Really well, actually! In fact, one of the 16 entries h
 
 It's worth underscoring that the model didn't "believe" that Virginia beating Texas Tech was a particularly likely outcome. In fact, TT was considered a longshot to win the title (somewhere around 3%). But the model determined that they were picked infrequently enough by our competitors to make that a profitable selection, and it turns out to be right.
 
-It's also worth reiterating the larger point that this model doesn't base selections on any kind of special insights about how likely different scenarios are. It's more like arbitrage...taking advantage of 'inefficiencies' in our competitors' picks relative to the likelihood of success of the various teams.
+It's also worth reiterating the larger point that this model doesn't base selections on any kind of special insights about how probable different scenarios are. Rather, the model takes advantage of 'inefficiencies' in our competitors' picks relative to the likelihood of success of the various teams.
